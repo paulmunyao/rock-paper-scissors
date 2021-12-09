@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,41 +9,54 @@
     <link rel="stylesheet" href="index.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
 
     <section class="game">
-        <div class="title">
-            <h2>Rock Paper Scissors</h2>
+        <div class="container">
+            <div class="title">
+                <h2>Rock Paper Scissors</h2>
+            </div>
         </div>
 
+
         <div class="score">
-            <div class="playerscore">
-                <h3>Player</h3>
-                <p class="p-count count">0</p>
-            </div>
-            <div class="computerscore">
-                <h3>Computer</h3>
-                <p class="p-count count">0</p>
+            <div class="container">
+                <div class="playerscore">
+                    <h3>Player</h3>
+                    <p class="p-count count">0</p>
+                </div>
+                <div class="computerscore">
+                    <h3>Computer</h3>
+                    <p class="p-count count">0</p>
+                </div>
             </div>
         </div>
 
         <div class="move">
-            <h4>Choose your move</h4>
+            <div class="container">
+                <h4>Choose your move</h4>
+            </div>
         </div>
         <div class="moves left">
-            <p>Moves left:10</p>
+            <div class="container">
+                <p>Moves left:10</p>
+            </div>
         </div>
 
         <div class="choose">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissors">Scissors</button>
+            <div class="container">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
         </div>
-
-        <div class="final"></div>
-        <div class="reload"></div>
+        <div class="container">
+            <div class="final"></div>
+            <div class="reload"></div>
+        </div>
     </section>
-    
+
 
 
 
@@ -59,4 +73,5 @@
 
     <script>app.js</script>
 </body>
+
 </html>
